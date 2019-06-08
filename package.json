@@ -1,0 +1,29 @@
+{
+  "name": "pato-custom",
+  "version": "1.0.0",
+  "description": "Thanks for downloading this theme!",
+  "main": "index.js",
+  "dependencies": {
+    "lite-server": "^2.5.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "es6-promise": "^4.2.8",
+    "url-loader": "^2.0.0",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.0",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.3",
+    "webpack-dev-server": "^3.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devserver": "webpack-dev-server --open --progress",
+    "dev": "webpack",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC"
+}
